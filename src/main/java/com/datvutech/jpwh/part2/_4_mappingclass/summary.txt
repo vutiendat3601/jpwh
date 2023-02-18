@@ -1,0 +1,7 @@
+- Entities are the coarser-grained classes of your system. 
+    Their instances have an "independent life cycle" and their "own identity", 
+    and many other instances can reference them.
+
+- Value types, on the other hand, are dependent on a particular entity class. 
+A value type instance is bound to "its owning entity instance", and "only one entity"
+instance can reference it— it has no "individual identity".
